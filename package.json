@@ -4,12 +4,11 @@
 	"description": "AI Agent Collections",
 	"scripts": {
 		"preinstall": "npx only-allow pnpm",
-		"build": "pnpm --filter \"./apps/**\" run build",
+		"build": "pnpm --filter \"./packages/**\" run build",
 		"clean": "pnpm --filter=@elljs/* run clean",
 		"format": "pnpm biome format --write .",
 		"cs": "changeset"
 	},
-	"workspaces": ["apps/*", "packages/*"],
 	"devDependencies": {
 		"@biomejs/biome": "1.9.3",
 		"@changesets/cli": "^2.27.8",

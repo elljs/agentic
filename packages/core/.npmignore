@@ -1,7 +1,0 @@
-node_modules
-src
-
-tsconfig.json
-tsconfig.tsbuildinfo
-biome.json
-.npmignore
